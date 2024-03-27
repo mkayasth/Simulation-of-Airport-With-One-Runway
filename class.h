@@ -1,4 +1,5 @@
 class Plane {
+
 public:
     Plane() {
         timeEntered = 0;
@@ -11,6 +12,7 @@ public:
     unsigned int gettimeEntered() {
         return timeEntered;
     }
+
 private:
     unsigned int timeEntered;
 };
